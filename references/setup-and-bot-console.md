@@ -58,7 +58,7 @@ The Console shows pending redemptions live. They are also emailed to you, and yo
 
 | Method | How it works |
 |---|---|
-| **API** | Trade with your bot's API Key and Secret Key. Full documentation: https://doc.onebullex.com/#/ |
+| **API** | Trade with your bot's API Key and Secret Key. Full documentation: https://doc.onebullex.com/#/ (also in this repository: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md) |
 | **Manual** | Log into the Bot Account and trade as you would on a normal futures account. You see Funding and Futures in one place. |
 | **MCP** | A protocol-based way to connect, effectively a form of API trading. Described in the API documentation. |
 

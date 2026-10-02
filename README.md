@@ -61,7 +61,7 @@ The four official documents (Open API and MCP, English and Chinese) are in `refe
 
 ## Status
 
-- API and MCP documentation: to be added.
+- API and MCP documentation: included in `references/api/` (Open API V2 and MCP guide, English and Chinese), snapshot 2026-10-02. The live docs at https://doc.onebullex.com/#/ win if they differ.
 - Statements marked "currently" or "at the time of writing" can change. If this repository conflicts with an official OneBullEx announcement, the announcement prevails.
 
 ## Disclaimer

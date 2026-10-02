@@ -12,7 +12,7 @@ Contents: 7. For API Traders and Bot Builders
 
 ### 7.1 What the API Gives You
 
-The API covers trading, balances, positions and account transfers (reference: https://doc.onebullex.com/#/). The redemption queue summary is available at `GET /v2/bot/redeeming-info` (no request parameters), so your code can see pending redemptions without relying on the Console or email. You can build whatever mechanism you prefer on top of it, for example an automatic redemption mode, an alert, or fully automated handling. The Console and email still work alongside it.
+The API covers trading, balances, positions and account transfers (reference: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md, Chinese: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-zh.md; live version: https://doc.onebullex.com/#/). For MCP see https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-en.md. The redemption queue summary is available at `GET /v2/bot/redeeming-info` (no request parameters), so your code can see pending redemptions without relying on the Console or email. You can build whatever mechanism you prefer on top of it, for example an automatic redemption mode, an alert, or fully automated handling. The Console and email still work alongside it.
 
 ### 7.2 Bot Design Checklist
 

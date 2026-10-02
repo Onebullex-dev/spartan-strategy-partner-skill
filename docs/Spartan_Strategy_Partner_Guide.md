@@ -3,7 +3,7 @@
 *The complete operating manual for running a strategy on OneBullEx Spartan, for API traders and manual traders.*
 
 Version: October 2026 | Applies to: Spartan pooled strategy bots on OneBullEx
-Official API documentation: https://doc.onebullex.com/#/
+Official API documentation: https://doc.onebullex.com/#/ . The full Open API V2 reference and the MCP guide (English and Chinese) are included in this repository: https://github.com/Onebullex-dev/spartan-strategy-partner-skill/tree/main/references/api
 If anything in this guide conflicts with an official OneBullEx announcement, the announcement prevails (see Section 15 for the change timeline).
 
 ## How to Use This Guide
@@ -266,7 +266,7 @@ The Console shows pending redemptions live. They are also emailed to you, and yo
 
 | Method | How it works |
 |---|---|
-| **API** | Trade with your bot's API Key and Secret Key. Full documentation: https://doc.onebullex.com/#/ |
+| **API** | Trade with your bot's API Key and Secret Key. Full documentation: https://doc.onebullex.com/#/ (also in this repository: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md) |
 | **Manual** | Log into the Bot Account and trade as you would on a normal futures account. You see Funding and Futures in one place. |
 | **MCP** | A protocol-based way to connect, effectively a form of API trading. Described in the API documentation. |
 
@@ -451,7 +451,7 @@ Because your reported ROI is calculated on the whole pool, leaving large amounts
 
 ### 7.1 What the API Gives You
 
-The API covers trading, balances, positions and account transfers (reference: https://doc.onebullex.com/#/). The redemption queue summary is available at `GET /v2/bot/redeeming-info` (no request parameters), so your code can see pending redemptions without relying on the Console or email. You can build whatever mechanism you prefer on top of it, for example an automatic redemption mode, an alert, or fully automated handling. The Console and email still work alongside it.
+The API covers trading, balances, positions and account transfers (reference: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md, Chinese: https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-zh.md; live version: https://doc.onebullex.com/#/). For MCP see https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-en.md. The redemption queue summary is available at `GET /v2/bot/redeeming-info` (no request parameters), so your code can see pending redemptions without relying on the Console or email. You can build whatever mechanism you prefer on top of it, for example an automatic redemption mode, an alert, or fully automated handling. The Console and email still work alongside it.
 
 ### 7.2 Bot Design Checklist
 
@@ -766,7 +766,7 @@ Keep the pending amount in Funding, de-risk where you can, and contact your BD o
 
 **Can I trade any token?** You can trade all listed pairs. For BTC, ETH and gold, use the Spartan pairs.
 
-**Where is the API documentation?** https://doc.onebullex.com/#/
+**Where is the API documentation?** In this repository: Open API V2 (https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md, Chinese https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-zh.md) and the MCP guide (https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-en.md, Chinese https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-zh.md). Live version: https://doc.onebullex.com/#/
 
 ---
 

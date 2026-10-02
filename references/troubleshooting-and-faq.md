@@ -57,6 +57,6 @@ Contents: 13. Troubleshooting | 14. FAQ
 
 **Can I trade any token?** You can trade all listed pairs. For BTC, ETH and gold, use the Spartan pairs.
 
-**Where is the API documentation?** https://doc.onebullex.com/#/
+**Where is the API documentation?** In this repository: Open API V2 (https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md, Chinese https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-zh.md) and the MCP guide (https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-en.md, Chinese https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-zh.md). Live version: https://doc.onebullex.com/#/
 
 ---
