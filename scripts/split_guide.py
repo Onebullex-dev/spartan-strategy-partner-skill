@@ -4,8 +4,8 @@
 Usage (from the repo root):   python scripts/split_guide.py
 
 The guide is the single source of truth. Never edit the generated files in
-skills/spartan-strategy-partner/references/ by hand (except references/api/ and
-references/mcp.md, which are maintained manually).
+skills/spartan-strategy-partner/references/ by hand (except references/api/,
+which is maintained manually).
 """
 import re
 import sys
