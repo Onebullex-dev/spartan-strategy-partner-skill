@@ -58,8 +58,8 @@ Raw files: `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-par
 | Onboarding, creating a bot, Bot Console metrics, bot closure, platform rights | `references/setup-and-bot-console.md` |
 | Deposits, redemptions, queue logic, notifications, sweeper rules | `references/deposits-and-redemptions.md` |
 | A manual trader's workflow and daily routine | `references/manual-trading.md` |
-| Writing or reviewing a bot or script (design checklist, pseudocode) | `references/api-and-bot-design.md`, then the API files listed in `references/api/README.md`, and `references/mcp.md` |
-| API endpoints, parameters, limits, error codes | `references/api/README.md` (index and language rules), then the matching `references/api/NN-*.md` file (English) or `NN-*.zh.md` (Chinese) |
+| Writing or reviewing a bot or script (design checklist, pseudocode) | `references/api-and-bot-design.md`, then `references/api/openapi-en.md` and `references/api/mcp-en.md` |
+| API endpoints, parameters, limits, error codes | `references/api/openapi-en.md` (English) or `references/api/openapi-zh.md` (Chinese); MCP: `references/api/mcp-en.md` / `mcp-zh.md`. Index: `references/api/README.md` |
 | Earnings, high-water mark, fee table, tiers | `references/profit-share-and-tiers.md` |
 | Pairs, limits, liquidation, fees, risk disclosure | `references/risk-and-pairs.md` |
 | "Why did my balance change?" with numbers | `references/scenarios.md` |
@@ -71,10 +71,10 @@ Raw files: `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-par
 - Be concrete: say which wallet, which direction, and who acts (system, API trader, or manual trader).
 - Ask whether the user is an **API trader or a manual trader** when it changes the answer.
 - Use the worked numbers in `references/scenarios.md` when explaining entry timing or dilution.
-- **Do not invent** endpoints, fees, limits, dates or response fields. The only endpoints documented here so far are `POST /v2/balance/transfer` and `GET /v2/bot/redeeming-info`. For anything else read the files in `references/api/` (see its README for language rules and for how to recognize empty files), otherwise point to https://doc.onebullex.com/#/.
+- **Do not invent** endpoints, fees, limits, dates or response fields. Read the files in `references/api/` (see its README for the file list), otherwise point to https://doc.onebullex.com/#/.
 - Statements marked "currently" or "at the time of writing" can change. Say so, and refer the user to the latest official announcement. Official announcements always prevail over this skill.
 - This is operating guidance, not investment advice. Never promise returns.
 
 ## Maintenance
 
-The full human-readable guide is `docs/Spartan_Strategy_Partner_Guide.md` in the repository. The files in `references/` are generated from it by `scripts/split_guide.py`. `references/api/` and `references/mcp.md` are maintained by hand.
+The full human-readable guide is `docs/Spartan_Strategy_Partner_Guide.md` in the repository. The files in `references/` are generated from it by `scripts/split_guide.py`. `references/api/` is maintained by hand.

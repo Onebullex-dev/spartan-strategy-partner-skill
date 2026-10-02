@@ -24,8 +24,11 @@ Before answering questions about Spartan, open the files that apply. Do not answ
 
 ## API documentation
 
-- [API index and language rules](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/README.md): English files `NN-*.md`, Chinese files `NN-*.zh.md`
-- [MCP access](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/mcp.md)
+- [API index](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/README.md): file list and rules
+- [Open API V2, English](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-en.md)
+- [Open API V2, Chinese](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/openapi-zh.md)
+- [MCP guide, English](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-en.md)
+- [MCP guide, Chinese](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/mcp-zh.md)
 
 ## Optional
 

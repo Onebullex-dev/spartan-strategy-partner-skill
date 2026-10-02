@@ -33,8 +33,7 @@ references/
   scenarios.md                    worked numeric scenarios
   troubleshooting-and-faq.md      symptoms and FAQ
   changelog-and-glossary.md       rule-change timeline, glossary, translation notes
-  mcp.md                          MCP access (to be filled in)
-  api/                            API documentation, English (NN-*.md) and Chinese (NN-*.zh.md)
+  api/                            openapi-en.md, openapi-zh.md, mcp-en.md, mcp-zh.md (verbatim doc snapshots)
 docs/
   Spartan_Strategy_Partner_Guide.md   the full guide for people (single source of truth)
 scripts/
@@ -50,7 +49,7 @@ scripts/
 
 ## Adding the API documentation
 
-The files are already created in `references/api/` (English `NN-*.md`, Chinese `NN-*.zh.md`). Open a file on GitHub, click the pencil icon, paste the documentation below the marker line, delete the marker line, and commit. See `references/api/README.md`. Fill in `references/mcp.md` the same way. Never paste API keys, secrets, UIDs or personal data.
+The four official documents (Open API and MCP, English and Chinese) are in `references/api/` as verbatim snapshots. To update one, replace the file contents with the new text from https://doc.onebullex.com/#/ and change the snapshot date in the header. Never paste API keys, secrets, UIDs or personal data.
 
 ## Updating the guide
 
@@ -58,7 +57,7 @@ The files are already created in `references/api/` (English `NN-*.md`, Chinese `
 2. Run `python scripts/split_guide.py` from the repository root.
 3. Commit the guide and the regenerated files.
 
-`references/api/` and `references/mcp.md` are maintained by hand.
+`references/api/` is maintained by hand.
 
 ## Status
 
