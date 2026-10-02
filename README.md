@@ -2,20 +2,25 @@
 
 An operating guide for running a strategy (bot) on **OneBullEx Spartan**, a pooled strategy-trading system, packaged so that **people and AI assistants can both use it**. It explains the pool mechanics (Funding vs Futures wallets, shares and NAV), subscriptions and redemptions, profit sharing and tiers, the three account types, API and manual trading cautions, and worked scenarios and troubleshooting.
 
-## Use it with an AI assistant (link only)
+## Use it with an AI assistant
 
-Give your assistant this repository link and this instruction:
+Copy this prompt into your AI assistant (it must be able to open web pages):
 
-> Read https://github.com/Onebullex-dev/spartan-strategy-partner-skill, starting with `SKILL.md`, and follow it whenever you help me with OneBullEx Spartan.
+> Read https://github.com/Onebullex-dev/spartan-strategy-partner-skill, starting with `SKILL.md`. Before answering any question about OneBullEx Spartan, open the files that apply and follow them. Do not answer from memory.
 
-**For AI assistants:** start with [`SKILL.md`](SKILL.md). It holds the model, the hard rules, and a table saying which file to read for which task. Fetch only the files you need. Raw files are available at `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/<path>`.
+If your assistant can open only one page, use this prompt instead:
 
-> The link works for an assistant only while the repository is **public**. A private repository cannot be read from a link.
+> Read https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/docs/Spartan_Strategy_Partner_Guide.md and use it to answer my questions about OneBullEx Spartan.
+
+An assistant without web access cannot read a link. In that case paste the contents of `SKILL.md` and the files you need, or install the skill (see below).
+
+**For AI assistants:** start with [`SKILL.md`](SKILL.md). Open the files that apply before answering. An index of all files is in [`llms.txt`](llms.txt). Raw files are at `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/<path>`.
 
 ## Repository layout
 
 ```text
 SKILL.md                          entry point for AI assistants
+llms.txt                          index of all files for AI assistants
 README.md                         this file
 references/
   overview.md                     model, wallets, NAV, account types
@@ -29,7 +34,7 @@ references/
   troubleshooting-and-faq.md      symptoms and FAQ
   changelog-and-glossary.md       rule-change timeline, glossary, translation notes
   mcp.md                          MCP access (to be filled in)
-  api/                            API documentation (to be filled in)
+  api/                            API documentation, English (NN-*.md) and Chinese (NN-*.zh.md)
 docs/
   Spartan_Strategy_Partner_Guide.md   the full guide for people (single source of truth)
 scripts/
@@ -45,7 +50,7 @@ scripts/
 
 ## Adding the API documentation
 
-In `references/api/`, add one Markdown file per area (for example `authentication.md`, `trading.md`, `account-transfer.md`). On GitHub: open the `references/api` folder, choose **Add file, Create new file**, type the file name, paste the content, and commit. Follow the header format in `references/api/README.md`. Fill in `references/mcp.md` the same way. Never paste API keys, secrets, UIDs or personal data.
+The files are already created in `references/api/` (English `NN-*.md`, Chinese `NN-*.zh.md`). Open a file on GitHub, click the pencil icon, paste the documentation below the marker line, delete the marker line, and commit. See `references/api/README.md`. Fill in `references/mcp.md` the same way. Never paste API keys, secrets, UIDs or personal data.
 
 ## Updating the guide
 

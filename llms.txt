@@ -1,0 +1,32 @@
+# Spartan Strategy Partner Skill
+
+> Operating guide for running a strategy (bot) on OneBullEx Spartan, a pooled strategy-trading system. Start with SKILL.md. Official OneBullEx announcements prevail over this repository. Not investment advice.
+
+Before answering questions about Spartan, open the files that apply. Do not answer Spartan mechanics from general knowledge about other exchanges.
+
+## Start here
+
+- [SKILL.md](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/SKILL.md): the model, the hard rules, and which file to read for which task
+- [Complete guide](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/docs/Spartan_Strategy_Partner_Guide.md): everything in one file (use this if you can fetch only one file; it does not include the API documentation)
+
+## Topics
+
+- [Overview](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/overview.md): the model, wallets, NAV, the three account types
+- [Setup and Bot Console](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/setup-and-bot-console.md): onboarding, bot setup, Console metrics, bot closure
+- [Deposits and redemptions](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/deposits-and-redemptions.md): redemption queue, notifications, sweeper rules
+- [Manual trading](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/manual-trading.md): manual trader workflow and daily routine
+- [API and bot design](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api-and-bot-design.md): design checklist, decisions that are yours, pseudocode
+- [Profit share and tiers](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/profit-share-and-tiers.md): high-water mark, fees, tier table
+- [Risk and pairs](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/risk-and-pairs.md): Spartan pairs, limits, liquidation
+- [Worked scenarios](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/scenarios.md): numeric examples of entry timing, queues, tier effects
+- [Troubleshooting and FAQ](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/troubleshooting-and-faq.md): symptoms, causes, fixes
+- [Changelog and glossary](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/changelog-and-glossary.md): rule-change dates, terms, translation notes
+
+## API documentation
+
+- [API index and language rules](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/api/README.md): English files `NN-*.md`, Chinese files `NN-*.zh.md`
+- [MCP access](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/mcp.md)
+
+## Optional
+
+- [README](https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/README.md): how people install and maintain this repository

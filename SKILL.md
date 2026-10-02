@@ -42,11 +42,13 @@ Guidance for people (and AI assistants) building or running a strategy on OneBul
 
 ## Loading this skill from GitHub
 
-If you were given this repository's link, you do not need to download anything. Start from this file, then fetch only the files you need from:
+If you were given this repository's link, you do not need to download anything.
 
-`https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/<path>`
+1. Read this file completely.
+2. **Before answering any question about Spartan, open the files that apply** using the table below. Open every file that applies. Do not answer Spartan mechanics, fees, limits or API details from memory or from general knowledge about other exchanges.
+3. If you can fetch only ONE file, fetch the complete guide: `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/docs/Spartan_Strategy_Partner_Guide.md`. It contains everything except the API documentation.
 
-For example `.../main/references/deposits-and-redemptions.md`. Use the table below to choose files.
+Raw files: `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/<path>`, for example `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/references/deposits-and-redemptions.md`. An index of all files is in `https://raw.githubusercontent.com/Onebullex-dev/spartan-strategy-partner-skill/main/llms.txt`.
 
 ## Which file to read
 
@@ -56,7 +58,8 @@ For example `.../main/references/deposits-and-redemptions.md`. Use the table bel
 | Onboarding, creating a bot, Bot Console metrics, bot closure, platform rights | `references/setup-and-bot-console.md` |
 | Deposits, redemptions, queue logic, notifications, sweeper rules | `references/deposits-and-redemptions.md` |
 | A manual trader's workflow and daily routine | `references/manual-trading.md` |
-| Writing or reviewing a bot or script (design checklist, pseudocode) | `references/api-and-bot-design.md`, then `references/api/` and `references/mcp.md` |
+| Writing or reviewing a bot or script (design checklist, pseudocode) | `references/api-and-bot-design.md`, then the API files listed in `references/api/README.md`, and `references/mcp.md` |
+| API endpoints, parameters, limits, error codes | `references/api/README.md` (index and language rules), then the matching `references/api/NN-*.md` file (English) or `NN-*.zh.md` (Chinese) |
 | Earnings, high-water mark, fee table, tiers | `references/profit-share-and-tiers.md` |
 | Pairs, limits, liquidation, fees, risk disclosure | `references/risk-and-pairs.md` |
 | "Why did my balance change?" with numbers | `references/scenarios.md` |
@@ -68,7 +71,7 @@ For example `.../main/references/deposits-and-redemptions.md`. Use the table bel
 - Be concrete: say which wallet, which direction, and who acts (system, API trader, or manual trader).
 - Ask whether the user is an **API trader or a manual trader** when it changes the answer.
 - Use the worked numbers in `references/scenarios.md` when explaining entry timing or dilution.
-- **Do not invent** endpoints, fees, limits, dates or response fields. The only endpoints documented here so far are `POST /v2/balance/transfer` and `GET /v2/bot/redeeming-info`. For anything else read `references/api/` if it has content, otherwise point to https://doc.onebullex.com/#/.
+- **Do not invent** endpoints, fees, limits, dates or response fields. The only endpoints documented here so far are `POST /v2/balance/transfer` and `GET /v2/bot/redeeming-info`. For anything else read the files in `references/api/` (see its README for language rules and for how to recognize empty files), otherwise point to https://doc.onebullex.com/#/.
 - Statements marked "currently" or "at the time of writing" can change. Say so, and refer the user to the latest official announcement. Official announcements always prevail over this skill.
 - This is operating guidance, not investment advice. Never promise returns.
 
