@@ -33,7 +33,7 @@ references/
   scenarios.md                    worked numeric scenarios
   troubleshooting-and-faq.md      symptoms and FAQ
   changelog-and-glossary.md       rule-change timeline, glossary, translation notes
-  api/                            openapi-en.md, openapi-zh.md, mcp-en.md, mcp-zh.md (verbatim doc snapshots)
+  api/                            openapi-en.md, openapi-zh.md, mcp-en.md, mcp-zh.md (official docs, Markdown-formatted)
 docs/
   Spartan_Strategy_Partner_Guide.md   the full guide for people (single source of truth)
 scripts/
@@ -49,7 +49,7 @@ scripts/
 
 ## Adding the API documentation
 
-The four official documents (Open API and MCP, English and Chinese) are in `references/api/` as verbatim snapshots. To update one, replace the file contents with the new text from https://doc.onebullex.com/#/ and change the snapshot date in the header. Never paste API keys, secrets, UIDs or personal data.
+The four official documents (Open API and MCP, English and Chinese) are in `references/api/` as Markdown-formatted snapshots. To update one, replace the file contents with the new text from https://doc.onebullex.com/#/ and change the snapshot date in the header. Never paste API keys, secrets, UIDs or personal data.
 
 ## Updating the guide
 
